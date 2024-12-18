@@ -1,0 +1,24 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="validate.js"></script>
+</head>
+<body>
+  <h1>Simple Registration Form</h1>
+  <form>
+    Name: <input type="text" id="name"><br>
+    Email: <input type="email" id="email"><br>
+    Phone: <input type="text" id="phone"><br>
+    DOB: <input type="date" id="dob"><br>
+    Gender: 
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+    Qualification: 
+    <select id="qualification">
+      <option value="postgraduate">Postgraduate</option>
+      <option value="undergraduate">Undergraduate</option>
+    </select><br><br>
+    <button type="button" onclick="validateForm()">Submit</button>
+  </form>
+</body>
+</html>
